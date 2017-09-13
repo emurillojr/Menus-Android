@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="neit.menu.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/New"
+        android:orderInCategory="101"
+        android:title="New"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/ToastTopTextBox"
+        android:orderInCategory="101"
+        android:title="ToastTopTextBox"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/longText"
+        android:orderInCategory="102"
+        android:title="A really long menu option to display the bottom Textbox that shouldn't fit the screen" />
+</menu>
